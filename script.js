@@ -9,7 +9,6 @@ function fixNav() {
     nav.classList.remove('fixed-nav');
     document.body.style.paddingTop = 0;
   }
-  console.log(window.scrollY);
 }
 
 window.addEventListener('scroll', fixNav);
